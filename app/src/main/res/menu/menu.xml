@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+       tools:context=".LinetimeActivity">
+
+
+    <item
+        android:id="@+id/composeActionBtn"
+        android:icon="@drawable/ic_vector_compose"
+        android:title="BetterTwitter"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/Progress_Bar"
+        android:orderInCategory="100"
+        android:title="Loading..."
+        android:visible="false"
+        app:actionLayout="@layout/action_view_progress_bar"
+        app:showAsAction="always" />
+
+
+
+</menu>
